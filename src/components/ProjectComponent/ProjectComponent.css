@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'VCR_OSD_MONO';
+    src: url('../../fonts/VCR_OSD_MONO.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Galmuri9';
+    src: url('../../fonts/Galmuri9.ttf') format(truetype);
+}
+
+.AppText {
+    font-family: 'VCR_OSD_MONO', 'Galmuri9', sans-serif;
+    display: inline-block; /* 글씨를 싹 감싸게 */
+    color: #FFFFFF;
+}
+
+.ProjectComponent {
+    display: flex;
+    flex-direction: column;
+    background-color: #333333;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    color: #FFFFFF;
+    font-family: 'VCR_OSD_MONO', 'Galmuri9', sans-serif;
+}
+
+.project-images {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin: 10px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #555555;
+    scroll-behavior: smooth; /* 부드러운 스크롤 */
+}
+
+.project-images img {
+    height: 300px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.project-images::-webkit-scrollbar {
+    height: 8px;
+}
+
+.project-images::-webkit-scrollbar-track {
+    background: #333333;
+    border-radius: 10px;
+}
+
+.project-images::-webkit-scrollbar-thumb {
+    background: #888888;
+    border-radius: 10px;
+}
+
+.project-images::-webkit-scrollbar-thumb:hover {
+    background: #555555;
+}
+
+.ProjectComponent div {
+    margin: 10px 0;
+}
+
+.ProjectComponent .section-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #FFD700;
+}
+
+.ProjectComponent ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.ProjectComponent li {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.ProjectComponent li img {
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.ProjectComponent .short-description,
+.ProjectComponent .period,
+.ProjectComponent .callout,
+.ProjectComponent .role,
+.ProjectComponent .description,
+.ProjectComponent .tools,
+.ProjectComponent .takeaways {
+    margin-bottom: 10px;
+}
+
+.ProjectComponent .role div,
+.ProjectComponent .description div,
+.ProjectComponent .tools div,
+.ProjectComponent .takeaways div {
+    margin-top: 10px;
+}
+
+.ProjectComponent .callout {
+    text-align: center;
+    background-color: #444444;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #FFD700;
+    margin: 20px 0;
+}

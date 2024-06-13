@@ -1,0 +1,207 @@
+{
+    "PTchart": {
+        "short_description": "엠지솔루션스(모티피지오) 인턴 ~ 2023 1학기 HCI 과목 프로젝트의 성과물로서 제작되었습니다.",
+        "period": "2023.01 ~ 2023.06",
+        "callout": "트레이너와 트레이니를 위한 기능을 모두 포함한 앱입니다.",
+        "images": [
+            "./images/PTchart/PTchartOverview.png",
+            "./images/PTchart/testing1.gif",
+            "./images/PTchart/testing2.gif"
+        ],
+        "description": "- 트레이너와 트레이니를 위한 기능을 제공하는 앱의 프로토타입을 개발하였습니다.\n- 해당 앱은 트레이너와 트레이니 간의 소통 기능, 수업 내용을 간편하게 작성하고 확인하는 기능 등을 제공합니다.",
+        "role": "- 서비스 기획: 요구사항 도출, 정보구조도 작성, UI 와이어프레임 설계\n- 엠지솔루션스 인턴: 서비스를 기획하고 노코드플랫폼 Bubble.io을 이용하여 웹앱을 제작하였습니다.\n- Android: React-Native를 사용하여 기획된 서비스의 안드로이드 앱 프로토타입(프론트엔드 시작품)을 제작하였습니다.",
+        "tools": [
+            {
+                "tool_name": "JavaScript",
+                "tool_image": "https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1567008394/noticon/ohybolu4ensol1gzqas1.png"
+            },
+            {
+                "tool_name": "React-Native",
+                "tool_image": "https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1613069004/noticon/ugcstxkq5uzhbhknrr80.png"
+            }
+        ],
+        "takeaways": "- 컴포넌트 기반 아키텍처에 대한 이해를 얻을 수 있었습니다.\n- 한번 정의된 컴포넌트는 다양한 곳에서 재사용될 수 있고, 유지 보수 비용을 줄일 수 있습니다.\n- JavaScript 생태계에 대해서도 많이 배울 수 있었습니다.\n- 개발에 재미를 붙이게 된 첫걸음입니다!"
+    },
+    "CMC":{
+        "short_description": "스마트ICT융합공학과 종합설계1 과목에 대한 프로젝트의 성과물로서 제작되었습니다.",
+        "period": "2023.03 ~ 2023.06",
+        "callout": "커스텀 의류를 원하는 소비자와 디자이너를 연결하는 플랫폼 앱입니다.",
+        "images": [
+            "./images/CMC/CMCOverview.png",
+            "./images/CMC/testing1.gif",
+            "./images/CMC/testing2.gif",
+            "./images/CMC/testing3.gif",
+            "./images/CMC/testing4.gif"
+        ],
+        "description":"- 커스텀 의류 제작을 원하는 소비자와 그러한 니즈를 충족시킬 수 있는 디자이너를 연결해줄 수 있는 플랫폼 앱 CMC(Customize My Clothes)를 제작하였습니다.\n- 해당 앱은 디자이너의 제품을 홈 화면에 노출하는 기능, 디자이너 혹은 제품 등에 대한 검색 기능, 작업 요청을 관리하는 기능 등을 제공합니다.",
+        "role": "- 서비스 기획 : 요구사항 도출, UI 와이어프레임 설계 등\n- Android : React-Native를 사용하여 기획된 서비스의 안드로이드 앱을 제작하고, 백엔드 팀이 구성한 API 연결로 실제 서비스가 구현될 수 있게 하였습니다.",
+        "tools": [
+            {
+                "tool_name": "JavaScript",
+                "tool_image": "https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1567008394/noticon/ohybolu4ensol1gzqas1.png"
+            },
+            {
+                "tool_name": "React-Native",
+                "tool_image": "https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1613069004/noticon/ugcstxkq5uzhbhknrr80.png"
+            }
+        ],
+        "takeaways":"- 프로젝트의 규모가 커질수록, State 관리는 점점 복잡해집니다.\n- 다양한 React Hook을 적절히 잘 활용한다면, 더 멋진 결과물을 만들 수 있습니다.\n- 프론트엔드와 백엔드가 연결되어 전체 시스템을 구성하는 과정을 경험하며 이에 대해 깊게 생각해보고 이해할 수 있었습니다.\n- 문제가 발생했고, 해당 문제를 본인 선에서 해결할 수 없을 것 같다면, 소통이 해결책을 찾을 수 있습니다.\n- 함께하면 생각보다 간단하게 해결될 문제일 수 있습니다 !"
+    },
+    "LSTMpaper": {
+        "short_description": "산업공학과 종합설계 과목을 수강, 산업공학과의 졸업 논문으로 작성된 논문입니다.",
+        "period": "2023.03 ~ 2023.06",
+        "callout": "정상인, 경도 인지 장애, 치매 과정 전 단계의 사람들의 수면 데이터에 LSTM을 활용하여 인지 장애 예측 모형을 구축하는 연구로 논문을 작성하였습니다.",
+        "images": [
+            "./images/LSTMpaper/LSTMpaper-0.jpg",
+            "./images/LSTMpaper/LSTMpaper-1.jpg",
+            "./images/LSTMpaper/LSTMpaper-2.jpg",
+            "./images/LSTMpaper/LSTMpaper-3.jpg",
+            "./images/LSTMpaper/LSTMpaper-4.jpg",
+            "./images/LSTMpaper/LSTMpaper-5.jpg"
+        ],
+        "tools": [
+            {
+                "tool_name": "Python",
+                "tool_image": "https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566791609/noticon/nen1y11gazeqhejw7nm1.png"
+            },
+            {
+                "tool_name": "Tensorflow",
+                "tool_image": "https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566915748/noticon/zbduq3macc9nkulysuq6.png"
+            },
+            {
+                "tool_name": "scikit-learn",
+                "tool_image": "https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1635226310/noticon/f0q3lhbfi2qmamrjla4e.png"
+            }
+        ],
+        "description": "- AI Hub의 55세 이상의 정상인, 경도인지장애(MCI), 치매 과정 전 단계(Dem)의 174명의 수면 라이프로그 데이터를 이용하여, 인지 장애 예측 모델을 구축한 연구입니다.",
+        "role": "- 논문의 소재가 될 수 있는 데이터를 탐색하고, 그 데이터로 어떤 결과물을 도출할 것인지 조사하였습니다.\n- 데이터에 적용될 수 있는 인공 신경망 모델을 조사하였습니다.\n- 데이터 전처리: 보간을 이용하여 결측치를 처리, 결측치가 너무 많은 데이터를 삭제, 3일, 5일, 7일의 시계열 학습 집합 구축",
+        "takeaways": "- 데이터 불균형 문제를 해결하기 위해 다양한 샘플링 기법들이 있습니다.\n - 언더 샘플링, 오버 샘플링, 그에 해당하는 여러 가지 기법들이 있으며, 각각은 장단점이 존재하므로 유의하여야 합니다. \n - 언더 샘플링은 계산 비용을 줄일 수 있지만 데이터 손실이 발생하고, 오버 샘플링은 소수 클래스 정보의 손실을 방지하지만 모델의 과적합 위험이 있습니다.\n - SMOTE, ADASYN 등이 어느정도 막아줄 수 있습니다.\n- 결측치를 처리하는 데에도 다양한 방법들이 있습니다. 데이터를 확인하고 적합한 방식을 선택해야 합니다."
+    },
+    "KEM": {
+        "short_description": "한국 CDE 학회 CDE DX Awards 2023의 학술 경진대회 부문의 출품작으로서 제작되었습니다. (장려상, 특별상 수상!)",
+        "period": "2023.09 ~ 2023.11",
+        "callout": "통신기능이 없는 오래된 레거시 장비의 HMI의 데이터를 인식하고 처리하는 모니터링 도구입니다.",
+        "images": [
+            "./images/KEM/KEM0.png",
+            "./images/KEM/KEM1.png",
+            "./images/KEM/KEM2.png"
+            ],
+        "tools": [
+                {
+                    "tool_name": "Python",
+                    "tool_image": "https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566791609/noticon/nen1y11gazeqhejw7nm1.png"
+                },
+                {
+                    "tool_name": "OpenCV",
+                    "tool_image": "https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1590305837/noticon/y0ru3kcjvsgm9lzoqxfn.png"
+                },
+                {
+                    "tool_name": "Tesseract",
+                    "tool_image": "https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1648777274/noticon/uupi5ephlcx4f82axldc.png"
+                },
+                {
+                    "tool_name": "HiveMQ",
+                    "tool_image": "https://www.hivemq.com/sb-assets/f/243938/3334x3335/53cbfc61ef/04-hivemq-neg-vert.png"
+                }, 
+                {
+                    "tool_name": "paho-mqtt",
+                    "tool_image": "https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566791609/noticon/nen1y11gazeqhejw7nm1.png"
+                },
+                {
+                    "tool_name": "Node-Red",
+                    "tool_image": "https://nodered.org/about/resources/media/node-red-icon.svg"
+                }
+            ],
+        "description": "- 중소기업이나 개발도상국에선 아직 통신기능이 없는 오래된 장비를 사용하는 경우가 많습니다.\n- 이러한 장비들의 HMI상의 정보를 원격에서 모니터링할 수 있는 작품을 제작하였습니다.\n- PyTesseract, OpenCV 등 오픈 소스 소프트웨어, 라이브러리를 기반으로 제작되었고, 제작된 작품 또한 오픈 소스로 배포하였습니다.",
+        "role": "- Tesseract의 traineddata 파일을 테스트하고 적용하였습니다.\n- 해당 작품이 MQTT 프로토콜을 이용한 통신이 가능하게 하였습니다.",
+        "takeaways": "- Traineddata를 직접 만들 수는 있지만, 방대한 양의 데이터가 필요하고, 시간과 노력이 많이 듭니다.\n - 이미 훈련된 traineddata파일을 문제 상황에 맞게 가져다 이용하는 것도 하나의 방법입니다.\n - 이미 학습한 인공신경망 모델을 사용할 수도 있지만, 문자 하나가 아닌 문자열 인식이 어렵습니다.\n - OCR 기술의 메인 포인트는 문자”열” 인식에 있습니다.\n- IoT 환경에는 MQTT 프로토콜이 더욱 적합합니다. (저비용, 고효율)\n - 웹 환경에서 많이 사용하는 REST 아키텍처 기반 HTTP 통신에 비해 경량 패킷 → 저전력, 저대역폭에서 잘 동작\n - 둘은 동일하게 TCP/IP 위에 동작하지만, 메시지 패턴이 다릅니다.\n - HTTP ⇒ Client-Server 구조, 비연결지향적, 기본적으로 동기 통신\n - MQTT ⇒ Publish-Subscribe 구조, 연결지향적, 비동기 통신"
+    },
+    "MFR": {
+        "short_description": "스마트ICT융합공학과 종합설계2 과목 프로젝트의 성과물로서 제작되었습니다.",
+        "period": "2023.09 ~ 2023.12",
+        "callout": "음원의 음악적 특성에 집중한 딥러닝 기반 음원 추천 알고리즘 서비스입니다.",
+        "images": [
+            "./images/MFR/MFR0.jpg",
+            "./images/MFR/MFR1.png",
+            "./images/MFR/MFR2.png",
+            "./images/MFR/MFR3.png",
+            "./images/MFR/MFR4.png",
+            "./images/MFR/MFR5.png"
+        ],
+        "tools": [
+            {
+                "tool_name": "Python",
+                "tool_image": "https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566791609/noticon/nen1y11gazeqhejw7nm1.png"
+            },
+            {
+                "tool_name": "Tensorflow",
+                "tool_image": "https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566915748/noticon/zbduq3macc9nkulysuq6.png"
+            },
+            {
+                "tool_name": "librosa",
+                "tool_image": "https://avatars.githubusercontent.com/u/18124827?s=280&v=4"
+            },
+            {
+                "tool_name": "scikit-learn",
+                "tool_image": "https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1635226310/noticon/f0q3lhbfi2qmamrjla4e.png"
+            },
+            {
+                "tool_name": "fastAPI",
+                "tool_image": "https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1632975189/noticon/jlfwseiqspqkzrr6vrhx.png"
+            }
+
+        ],
+        "description": "- 음원에서 음악의 특징들을 추출하고, 그 특징들에 기반하여 음원 추천 알고리즘을 제작하였습니다.\n- 10개의 장르 레이블에 대하여, 음원이 각 장르에 속할 확률을 산출하여 10차원 좌표로 변환\n- 좌표값을 기준으로 음원과 가까운 거리에 있는 다른 음원을 추천(Cosine Similarity 이용)\n- 파이썬 librosa 라이브러리를 이용하여 음원의 특성들을 추출하고 분석하여 신경망 학습에 이용합니다.\n- 데이터는 Kaggle의 gtzan 데이터셋을 활용하였습니다.\n- 해당 데이터셋은 10개의 장르별로 100개의 음원을 제공합니다.\n**초기 설계 모델**\n- 음악적 특성들을 최대한 많이 추출하고 그 분포를 계산해 57*1 행렬을 학습에 이용하였습니다.\n- 음악 특성 그대로를 모두 이용하면 데이터가 과도하게 커지게 되고, 그 분포만을 계산하여 학습에 이용하면 정보의 손실이 큽니다.\n**재설계 모델**\n- 음악적인 특징을 가장 잘 반영한다고 판단되는 MFCCs, Chroma STFT, Tempogram만을 이용하여, 음악을 (300,100,3) 행렬로 전처리하여 데이터를 재구성하였습니다.\n- Convolutional 층을 통과하며 음악의 지역적 특성을 반영한 특징 맵을 추출합니다.\n- LSTM층을 추가하여 음원의 시계열적 특성까지 반영할 수 있도록 하였습니다.\n- 단일 레이블 분류 문제가 아닌 다중 레이블 분류로 문제를 재정의하였습니다.",
+        "role": "- 전체적인 플로우를 구상하고, 메인 로직과 신경망 모델을 구축하는 역할을 맡았습니다.",
+        "takeaways": "- 음원을 분석함에 있어서 시계열적 특성은 매우 중요합니다.\n- 같은 조건에서 설계된 모델이더라도 결과는 매번 다를 수 있습니다. 초기화 방식이 중요합니다!"
+    },
+    "DrCoco": {
+    "short_description": "SKT FLY AI Challenger 4기 - ESG 연계 프로젝트의 성과물로서 제작되었습니다.",
+    "period": "2023.12.28 ~ 2024.02.28",
+    "callout": "육아에 필요한 도움을 제공하여 부모에게 안심과 여유를 제공합니다.",
+    "images": [
+        "./images/DrCoco/DrCoco0.jpg",
+        "./images/DrCoco/DrCoco1.jpg",
+        "./images/DrCoco/DrCoco2.jpg",
+        "./images/DrCoco/DrCoco3.jpg",
+        "./images/DrCoco/DrCoco4.jpg"
+        ],
+    "description": "- 두 가지 서비스를 제공하고자 하였습니다.\n - 육아가 처음인 부모에게 단 한 시간만이라도 여유를 제공하는 분리 수면 도우미\n - 아이 맞춤 정보를 제공하는 육아 전문가 챗봇",
+    "tools": [
+            {
+                "tool_name": "Google Mediapipe",
+                "tool_image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/mediapipe_icon.png"
+            },
+            {
+                "tool_name": "OpenAi chatGPT",
+                "tool_image": "https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1678190474/noticon/fenra4zau2wyqushekwb.png"
+            },
+            {
+                "tool_name": "Python",
+                "tool_image": "https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566791609/noticon/nen1y11gazeqhejw7nm1.png"
+            },
+            {
+                "tool_name": "Django",
+                "tool_image": "https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566919539/noticon/j2h9ud10ssbihscfqlwy.png"
+            },
+            {
+                "tool_name": "Docker",
+                "tool_image": "https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1698294991/noticon/seoaznmbzm3pcp2um3d3.png"
+            },
+            {
+                "tool_name": "Github Action",
+                "tool_image": "https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1673248072/noticon/uj1sljza7nnsj0lpilwk.png"
+            },
+            {
+                "tool_name": "AWS EC2",
+                "tool_image": "https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1629987467/noticon/o0ua9qgyuuoazjqwwvas.png"
+            },
+            {
+                "tool_name": "MS Azure",
+                "tool_image": "https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1650318250/noticon/vadmu8my7otfcxvaxavv.png"
+            }
+        ],
+    "role": "- 분리 수면 도우미 서비스 구축 총괄\n- Django 기반 백엔드 시스템 구축 및 모델 통합\n- 아이 뒤집힘 모델, 소리 인식 모델 구축\n- 상태 통합 판단 베이스 모델 선정 및 하이퍼파라미터 튜닝",
+    "takeaways": "- 모델링 및 테스트를 넘어, AI 모델을 위한 인프라 설계 및 구축까지 경험할 수 있었습니다.\n- 이제 복잡한 머신러닝 기능을 포함하는 서비스도 비교적 쉽고 빠르게 구축할 수 있습니다.\n - 특히 Google MediaPipe는 컴퓨터 비전, 오디오 처리, 멀티모달 데이터 통합의 영역에서 강력한 기능을 제공합니다.\n - Object Detection, Pose Landmarks, Face Detection and Mesh 등을 위해 구축된 사전학습 모델을 제공하며, 전이학습 등을 이용한 커스터마이징이 용이하기 때문에 모델 구축에 필요한 비용을 획기적으로 절약할 수 있을 것 같습니다.\n- Docker, Kubernetes의 필요성을 느낄 수 있었습니다.\n - 컨테이너 기술은 대단합니다.\n - 가장 크게 느꼈던 것은 “내 컴퓨터에서는 돌아가는데?” 문제를 해결할 수 있다는 것입니다.\n - 이는 CI/CD 파이프라인 구축에서 핵심적인 역할을 합니다.\n - 또한, 서비스의 규모가 커지게 된다면 k8s와 같은 오케스트레이션 도구가 필수적임을 알 수 있었습니다.\n- 클라우드 기반의 인프라를 구축하는 것은 확장성, 운영성의 측면에서 많은 편의를 가져다줍니다."
+    }
+}

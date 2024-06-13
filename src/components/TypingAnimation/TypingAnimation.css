@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'VCR_OSD_MONO';
+    src: url('../../fonts/VCR_OSD_MONO.ttf') format(truetype
+    );
+  }
+  
+@font-face {
+    font-family: 'Galmuri9';
+    src: url('../../fonts/Galmuri9.ttf') format(truetype
+    );
+  }
+  
+.AppText {
+    font-family: 'VCR_OSD_MONO','Galmuri9', sans-serif;
+    display: inline-block; /* 글씨를 싹 감싸게*/
+  }
