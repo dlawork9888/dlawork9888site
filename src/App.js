@@ -9,12 +9,21 @@ function App() {
 
   return (    
       <Router>
+        <div
+          style = {{
+            backgroundColor:'#000000',
+            display:'flex',
+            flexDirection:'column',
+            alignItems:'center',
+            minHeight:'100vh'
+          }}
+        >
           <div
             style = {{
               display:'flex',
               flex:1,
               flexDirection:'column',
-              minHeight:'100vh'
+              width:'90%',
             }}
           >
             <HeaderComponent/>
@@ -23,8 +32,11 @@ function App() {
                 <Route path="/" element={<Home />} />
               </Routes>
             
-            <FooterComponent/>
+            
           </div>
+          <FooterComponent/>
+        </div>
+        
       </Router>
   );
 }

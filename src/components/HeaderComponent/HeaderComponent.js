@@ -13,15 +13,15 @@ const HeaderComponent = () => {
             paddingBottom:0
             }}
         >
-        <div 
-            className="AppText"
-            style = {{
-            color: "#FFFFFF",
-            fontSize: 50,
-            }}
-        >
-            dlawork9888's worklog !
-        </div>
+            <div 
+                className="AppText"
+                style = {{
+                color: "#FFFFFF",
+                fontSize: 50,
+                }}
+            >
+                dlawork9888's worklog !
+            </div>
         </div>
     )
 }
