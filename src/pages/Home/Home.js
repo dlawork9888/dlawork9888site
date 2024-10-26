@@ -43,15 +43,17 @@ const Home = () => {
         {Array(3)
           .fill("This page is currently being updated!")
           .map((text, index) => (
-            <div
-              key={index}
-              className="AppText"
-              style={{
-                color: activeIndex === index ? '#FFD700' : '#666666', // 활성화된 문구만 #FFD700
-                fontSize: 20,
-              }}
-            >
-              {text}
+            <div>
+              <div
+                key={index}
+                className="AppText"
+                style={{
+                  color: activeIndex === index ? '#FFD700' : '#666666', // 활성화된 문구만 #FFD700
+                  fontSize: 25,
+                }}
+              >
+                {text}
+              </div>
             </div>
           ))}
       </div>
