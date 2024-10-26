@@ -7,18 +7,54 @@ import OnCursorText from '../../components/OnCursorText/OnCursorText';
 import TypingAnimation from '../../components/TypingAnimation/TypingAnimation';
 import OnCursorTextProject from '../../components/OnCursorText/OnCursorTextProject';
 
-const Home = () => {
 
+
+/* 업데이트 문구용 임시 컴포넌트*/
+const useUpdatingText = () => {
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setActiveIndex((prevIndex) => (prevIndex + 1) % 3); // 3개의 문구를 순환
+    }, 1000);
+
+    return () => clearInterval(interval); // 컴포넌트 언마운트 시 인터벌 정리
+  }, []);
+
+  return activeIndex;
+};
+
+
+
+const Home = () => {
+  const activeIndex = useUpdatingText(); // activeIndex 가져오기
 
   return (    
     <div 
       className="App"
-      style = {{
+      style={{
         flexDirection: "column",
-        display:'flex',
+        display: 'flex',
         padding: '40px'
       }}
     >
+      {/* 업데이트 중 안내 */}
+      <div>
+        {Array(3)
+          .fill("This page is currently being updated!")
+          .map((text, index) => (
+            <div
+              key={index}
+              className="AppText"
+              style={{
+                color: activeIndex === index ? '#FFD700' : '#666666', // 활성화된 문구만 #FFD700
+                fontSize: 20,
+              }}
+            >
+              {text}
+            </div>
+          ))}
+      </div>
 {/*Typing Introduction*/}
       <div
         style = {{
@@ -109,7 +145,9 @@ const Home = () => {
 
 
       </div>
-{/*Worklog - Projects*/}
+
+
+{/*Worklog - Projects
       <div
         style = {{
           //backgroundColor:'#222222',
@@ -155,10 +193,11 @@ const Home = () => {
           text = 'AI 육아 전문가 - 코코 박사'
           projectName='DrCoco'
         />
-        
+
 
 
       </div>
+*/}
     </div>
   );
 }
